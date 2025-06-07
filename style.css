@@ -84,6 +84,14 @@ body {
     cursor: pointer;
 }
 
+.main-logo {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 32px;
+}
+
 .cart-group {
     position: absolute;
     right: 10px;
