@@ -6,6 +6,7 @@ body {
     image-rendering: pixelated;
 }
 
+ 4bjtuv-codex/design-with-early-’00s-flash-portal-aesthetic
 .shooting-stars {
     position: fixed;
     top: 0;
@@ -44,6 +45,8 @@ body {
     to { transform: translate(120vw, 100vh); opacity: 0; }
 }
 
+
+ main
 .subdomain-bar {
     background: #eee;
     padding: 5px;
