@@ -6,7 +6,6 @@ body {
     image-rendering: pixelated;
 }
 
- 4bjtuv-codex/design-with-early-’00s-flash-portal-aesthetic
 .shooting-stars {
     position: fixed;
     top: 0;
@@ -32,13 +31,13 @@ body {
 .shooting-stars .star:nth-child(1) { top: 10%; left: -10px; animation-delay: 0s; }
 .shooting-stars .star:nth-child(2) { top: 25%; left: -10px; animation-delay: 0.5s; }
 .shooting-stars .star:nth-child(3) { top: 40%; left: -10px; animation-delay: 1s; }
-.shooting-stars .star:nth-child(4) { top: 55%; left: -10px; animation-delay: 1.5s; }
-.shooting-stars .star:nth-child(5) { top: 70%; left: -10px; animation-delay: 2s; }
+.shooting-stars .star:nth-child(4) { top: 80%; left: -10px; animation-delay: 1.5s; }
+.shooting-stars .star:nth-child(5) { top: 90%; left: -10px; animation-delay: 2s; }
 .shooting-stars .star:nth-child(6) { top: 85%; left: -10px; animation-delay: 2.5s; }
 .shooting-stars .star:nth-child(7) { top: 15%; left: -20px; animation-delay: 3s; }
-.shooting-stars .star:nth-child(8) { top: 35%; left: -20px; animation-delay: 3.5s; }
-.shooting-stars .star:nth-child(9) { top: 60%; left: -20px; animation-delay: 4s; }
-.shooting-stars .star:nth-child(10) { top: 80%; left: -20px; animation-delay: 4.5s; }
+.shooting-stars .star:nth-child(8) { top: 5%; left: -20px; animation-delay: 3.5s; }
+.shooting-stars .star:nth-child(9) { top: 1%; left: -20px; animation-delay: 4s; }
+.shooting-stars .star:nth-child(10) { top: 23%; left: -20px; animation-delay: 4.5s; }
 
 @keyframes shoot {
     from { transform: translate(0, 0); opacity: 1; }
@@ -98,6 +97,7 @@ body {
 .logo {
     background: linear-gradient(45deg, red, orange, yellow, lime, cyan);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     transform: rotate(-5deg);
     margin: 0;
