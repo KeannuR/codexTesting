@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #fff;
+    background: #000 url('doodle-pattern.png');
+    image-rendering: pixelated;
+}
+
+.subdomain-bar {
+    background: #eee;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.subdomain-bar input {
+    flex: 1;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+
+.subdomain-bar button {
+    font-family: inherit;
+    text-transform: uppercase;
+}
+
+.main-header {
+    background: #000;
+    border-bottom: 1px solid #f00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+}
+
+.menu-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-group {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo {
+    background: linear-gradient(45deg, red, orange, yellow, lime, cyan);
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: rotate(-5deg);
+    margin: 0;
+}
+
+.icon-nav {
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.icon-nav img {
+    width: 64px;
+    height: 64px;
+    image-rendering: pixelated;
+}
+
+.nav-item {
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-item:hover img {
+    transform: scale(1.1);
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.tagline {
+    font-family: "Creepster", cursive;
+    font-size: 32px;
+    color: #f00;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #900;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background: #111;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card button {
+    margin-top: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background: orange;
+}
